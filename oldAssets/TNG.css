@@ -1,0 +1,260 @@
+/*These are the styles copied from the style.css*/
+
+body {
+    margin: 0px;
+    padding: 0px;
+    background-color: #030303;
+    font-family: Calibri, Arial, sans-serif;
+}
+#outside_container {
+    background: url(back_slice.jpg) repeat-x;
+    text-align: center;
+}
+#container {
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+table {
+    margin-right: auto;
+    margin-left: auto;
+    display: inline-table;
+}
+p {
+    text-align: justify;
+}
+.heading {
+    color: #FFFFFF;
+}
+#content {
+    display: block;
+    text-align: left;
+    width: 660px;
+    color: White;
+    font-size: 13px;
+    line-height: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 0px;
+}
+img {
+    border-width: 0px;
+    margin-left: 0px;
+}
+a {
+    text-decoration: none;
+}
+a:link {
+    color: White;
+}
+a:visited {
+    color: #040404;
+}
+a:hover {
+    color: #D5D5D5;
+}
+a:active {
+    color: #D5D5D5;
+}
+
+/* header */
+
+.clear {
+    clear: both;
+}
+#maincontent {
+    text-align: left;
+    width: 660px;
+    color: White;
+    font-size: 13px;
+    line-height: 20px;
+    padding-top: 10px;
+    min-height: 300px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+#contentmain {
+    text-align: left;
+    width: 660px;
+    color: White;
+    font-size: 13px;
+    line-height: 20px;
+    padding-top: 10px;
+    padding-left: 5px;
+    padding-right: 5px;
+    min-height: 300px;
+    background-color: #EAEAEA;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/*	Footer */
+
+#footer {
+    background-color: #030303;
+    border-top: 1px solid #3f2324;
+    color: #FCFCFC;
+    font-size: 10px;
+    line-height: 14px;
+    padding-top: 20px;
+    padding-right: 10px;
+    padding-bottom: 20px;
+    padding-left: 10px;
+}
+#footer img {
+    margin-right: 10px;
+}
+#footer span {
+    display: block;
+}
+#footer a {
+    color: #FCFCFC;
+    text-decoration: none;
+}
+#footer a:hover {
+    color: White;
+}
+
+/* FAQ style*/
+
+.question {
+    font-weight: bold;
+}
+.answer {
+    font-style: italic;
+    font-size: 12px;
+}
+
+/*These is style from BlueGray.css*/
+
+.theme_header {
+    background-image: url(images/BrownFadeTop.gif);
+}
+.theme_highlighted {
+    background-image: url(images/BlueAndWhitef.gif);
+}
+.theme_fadeblue {
+    color: White;
+    background-image: url(images/FadeBlue.gif);
+}
+.theme_bluegradient {
+    background-image: url(images/BlueGradient.gif);
+}
+.theme_bluegradientshort {
+    background-image: url(images/BlueGradientShort.gif);
+}
+.theme_bluegradientrev {
+    background-image: url(images/BlueGradientRev.gif);
+}
+.theme_bluegradienthighlight {
+    background-image: url(images/BlueGradientHighlight.gif);
+}
+.theme_menu A:link {
+    COLOR: White;
+}
+.theme_menu A:unknown {
+    COLOR: White;
+}
+.theme_menu A:hover {
+    COLOR: White;
+    text-decoration: none;
+}
+.theme_menu A:visited {
+    COLOR: White;
+}
+.tableView {
+    color: White;
+    border-style: double;
+    border-color: White;
+    border-width: 2pt;
+    font-size: smaller;
+    font-family: Calibri, Arial, sans-serif;
+    white-space: nowrap;
+}
+.tableView caption {
+    color: White;
+    font-size: small;
+}
+.tableView td {
+    padding-right: 3px;
+    white-space: nowrap;
+}
+.tableViewHeader {
+    color: White;
+    background-image: url(images/back_slice.jpg);
+    border-style: solid;
+    border-width: thin;
+    border-color: White;
+    height: 26px;
+    vertical-align: middle;
+    font-size: small;
+}
+.tableViewFooter {
+    color: White;
+    background-color: #040000;
+}
+.tableViewRow {
+    color: White;
+    background-color: #BF0000;
+    border-style: solid;
+    border-width: thin;
+    border-color: White;
+}
+.tableViewAlternatingRow {
+    color: White;
+    background-color: #6F0000;
+    border-style: solid;
+    border-width: thin;
+    border-color: White;
+}
+.tableViewEditRow {
+    color: White;
+    background-color: #9F0000;
+    border-style: solid;
+    border-width: thin;
+    border-color: White;
+}
+.tableViewSelectedRow {
+    color: White;
+    background-color: #EF0000;
+    border-style: solid;
+    border-width: thin;
+    border-color: White;
+}
+.tableViewPager {
+    color: #040000;
+    background-image: url(images/back_slice.jpg);
+    height: 18px;
+    text-align: center;
+}
+.textRightAlign {
+    text-align: right;
+}
+.textLeftAlign {
+    text-align: left;
+}
+
+/************ Calendar Extender Related Styles ***********************/
+
+.AjaxCalendar .ajax__calendar_container {
+    border: 1px solid #040404;
+    background-color: #F8F7F4;
+    color: White;
+}
+.AjaxCalendar .ajax__calendar_other .ajax__calendar_day,
+.AjaxCalendar .ajax__calendar_other .ajax__calendar_year {
+    color: #CCCCCC;
+}
+.AjaxCalendar .ajax__calendar_hover .ajax__calendar_day,
+.AjaxCalendar .ajax__calendar_hover .ajax__calendar_month,
+.AjaxCalendar .ajax__calendar_hover .ajax__calendar_year {
+    color: black;
+}
+.AjaxCalendar .ajax__calendar_active .ajax__calendar_day,
+.AjaxCalendar .ajax__calendar_active .ajax__calendar_month,
+.AjaxCalendar .ajax__calendar_active .ajax__calendar_year {
+    color: black;
+    font-weight: bold;
+}
