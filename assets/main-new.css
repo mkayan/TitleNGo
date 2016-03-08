@@ -4988,7 +4988,10 @@ img.bg {
     display: none; }
 
   #bannerText {
-    display: none; } }
+    display: none; }
+
+  .bottomBox {
+    position: relative; } }
 /*@media (min-width: 1200px) {
        .container {
            max-width: 1170px;
