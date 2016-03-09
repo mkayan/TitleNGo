@@ -4964,9 +4964,6 @@ img.bg {
   .topnav > li {
     padding: 0; } }
 @media (max-width: 767px) {
-  .row {
-    min-width: 384px; }
-
   .header {
     height: 150px; }
     .header.largeHeader {
