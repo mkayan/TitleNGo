@@ -4695,30 +4695,6 @@ img.bg {
   background-size: 78px 24px;
   background-position: 10px 50px; }
 
-/* .container-fluid {
-       padding-right: 15px;
-       padding-left: 15px;
-       margin-right: auto;
-       margin-left: auto;
-       clear: both;
-       overflow: hidden;
-       text-align: center;
-       width: 100%;
-   }
-   .container {
-       margin: 15px auto;
-       clear: both;
-       overflow: hidden;
-       display: flex;
-       width: 1170px;
-       .two-column {
-           width: 50%;
-           display: flex;
-           &.column {
-               flex-direction: column;
-           }
-       }
-   }*/
 .topnav {
   list-style: none;
   margin: 9px auto;
@@ -4964,11 +4940,17 @@ img.bg {
 @media (min-width: 992px) and (max-width: 1199px) {
   .topnav li.logoBtn {
     margin-left: 10px;
-    margin-right: 0; } }
+    margin-right: 0; }
+
+  .topnav li.loginBtn {
+    left: 63%; } }
 @media (min-width: 768px) and (max-width: 991px) {
   .topnav li.logoBtn {
     margin-left: 2px;
     margin-right: 0; }
+
+  .topnav li.loginBtn {
+    left: 66%; }
 
   .topnav > li > a {
     padding: 5px 4px; }
