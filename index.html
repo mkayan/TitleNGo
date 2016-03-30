@@ -4,9 +4,11 @@
 
 <head>
     <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+
     <link href="assets/main.css" type="text/css" rel="stylesheet">
     <link rel="stylesheet" href="assets/font-awesome/css/font-awesome.min.css">
     <title>TitleNGo for Electronic Titling and Online Messenger Services</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="Description" content="TitleNGo (formerly Pa Messenger Solutions, Inc) provides online vehicular titling and registration services to messengers, car dealers, and notary businesses in Pennsylvania.  As an approved PennDOT Business Partner, TitleNGo’s software provides easy to use electronic access into PennDOT’s vehicle titling and registration services.">
     <meta name="Keywords" content="Online titling, vehicle titling, PennDOT, On Line Registration Program (OLRP), On Line Messenger (OLM), Harrisburg, Pennsylvania, PAMS, PA Messenger Solutions, Inc., web-based, registration card,  registration sticker, customer support, vehicle registration services, TitleNGo Business Portal, Gatekeeper, PennDOT Business Partner, green screen, Integrator">
     <script src="https://code.jquery.com/jquery-1.12.1.min.js"></script>
@@ -19,92 +21,156 @@
         <div id="outside_container">
             <div class="header">
                 <img id="bannerImg" src="assets/titlengo_home-banner-wide.jpeg" class="bg">
-                <div class="nav">
-                    <div class="container-fluid">
-                        <ul class="topnav">
-                            <li class="grayBtn">
-                                <a class="toplink" id="a1" type="button">How it works<i class="fa fa-arrow-down" ></i></a>
-                                <ul class="subnav">
-                                    <li class="active"><a class="sublink" href="sales.html">Sales <i class="fa fa-arrow-right" ></i></a></li>
-                                    <li><a href="" class="sublink">Services</a></li>
-                                    <li><a href="" class="sublink">Pricing</a></li>
-                                    <li><a href="" class="sublink">Apply Now</a></li>
+                <div class="nav-container">
+                    <!-- this is the top navigation for the big sceen size -->
+                    <div class="container text-md-center p-a-0">
+                        <div id="topNavContainer">
+                            <ul class="topnav">
+                                <li class="grayBtn">
+                                    <a type="button" href="sales.html">How it works<i class="fa fa-arrow-down" ></i></a>
+                                    <ul class="subnav">
+                                        <li class="active"><a class="sublink" href="sales.html">Sales <i class="fa fa-arrow-right" ></i></a></li>
+                                        <li><a href="services.html" class="sublink">Services <i class="fa fa-arrow-right" ></i></a></li>
+                                        <li><a href="pricing.html" class="sublink">Pricing <i class="fa fa-arrow-right" ></i></a></li>
+                                        <li><a href="applyNow.html" class="sublink">Apply Now <i class="fa fa-arrow-right" ></i></a></li>
 
-                                </ul>
-                            </li>
-                            <li class="grayBtn">
-                                <a class="toplink" id="a2">About Us <i class="fa fa-arrow-down"></i></a>
-                            </li>
-                            <li class="grayBtn"><a href="" id="a3" type="button" onclick="topNavClick(this)">Contact</a></li>
-                            <li class="logoBtn">
-                                <a class="toplink" href=""><img class="logo" src="assets/logo.jpg"></a>
-                            </li>
-                            <li class="loginBtn">
-                                <a id="a4" href="" onClick="myFunc(this.id);">Login <i class="fa fa-arrow-right"></i></a>
-                            </li>
-                            <li class="blueBtn"><a href="">Go Title</a></li>
-                            <li class="blueBtn"><a href="">Go</a></li>
-                            <li class="blueBtn"><a href="">DOT</a></li>
-                            <li class="blueBtn"><a href="">Corporate</a></li>
-                        </ul>
-                        <div id="bannerText"><span class="transparentBox">
+                                    </ul>
+                                </li>
+                                <li class="grayBtn">
+                                    <a href="aboutUs.html">About Us <i class="fa fa-arrow-down"></i></a>
+                                    <ul class="subnav">
+                                        <li class="active"><a class="sublink" href="company.html">Company <i class="fa fa-arrow-right" ></i></a></li>
+                                        <li><a href="faqs.html" class="sublink">FAQs <i class="fa fa-arrow-right" ></i></a></li>
+                                        <li><a href="partners.html" class="sublink">Partners <i class="fa fa-arrow-right" ></i></a></li>
+                                    </ul>
+                                </li>
+                                <li class="grayBtn"><a href="contact.html" type="button">Contact<i class="fa fa-arrow-right" ></i></a></li>
+                                <li class="logoBtn">
+                                    <a href="index.html"><img class="logo" src="assets/logo.jpg"></a>
+                                </li>
+                                <li class="loginBtn">
+                                    <a id="a4" href="login.html">Login <i class="fa fa-arrow-right"></i></a>
+                                </li>
+                                <li class="blueBtn"><a href="goTitle.html">Go Title <i class="fa fa-arrow-down" ></i></a></li>
+                                <li class="blueBtn"><a href="go.html">Go <i class="fa fa-arrow-down" ></i></a></li>
+                                <li class="blueBtn"><a href="dot.html">DOT <i class="fa fa-arrow-down" ></i></a></li>
+                                <li class="blueBtn"><a href="corporate.html">Corporate <i class="fa fa-arrow-down" ></i></a></li>
+                            </ul>
+                            <div id="bannerText"><span class="transparentBox">
                             <span class="title">Focus on the drive.</span>
+                                <span class="subTitle">Not the paperwork.</span></span>
+                            </div>
+                        </div>
+
+                        <div class="hidden-md-up m-l-1">
+                            <div class="row">
+                                <div class="col-xs-10 ">
+                                    <a class="logoBtn " href=""><img class="logo" src="assets/logo.jpg"></a>
+                                </div>
+                                <div class="col-xs-2">
+                                    <button type="button" class="btn btn-secondary navbar-toggle hidden-md-up">
+                                        <span class="sr-only">Toggle navigation</span>
+                                        <i class="fa fa-bars"></i>
+
+                                    </button>
+                                </div>
+                            </div>
+                            <div class="row text-xs-center " id="collapsible-nav">
+                                <div class="col-xs-12">
+                                    <ul class="smallnav">
+
+                                        <li><a href="goTitle.html">Go Title</a></li>
+                                        <li><a href="go.html">Go</a></li>
+                                        <li><a href="dot.html">DOT</a></li>
+                                        <li><a href="corporate.html">Corporate</a></li>
+                                    </ul>
+                                    <ul class="smallnav">
+                                        <li>
+                                            <a type="button" href="sales.html">How it works<i class="fa fa-arrow-down" ></i></a>
+                                            <ul class="subnav">
+                                                <li><a class="sublink" href="sales.html">Sales <i class="fa fa-arrow-right" ></i></a></li>
+                                                <li><a href="services.html" class="sublink">Services <i class="fa fa-arrow-right" ></i></a></li>
+                                                <li class="active"><a href="pricing.html" class="sublink">Pricing <i class="fa fa-arrow-right" ></i></a></li>
+                                                <li><a href="applyNow.html" class="sublink">Apply Now <i class="fa fa-arrow-right" ></i></a></li>
+
+                                            </ul>
+                                        </li>
+                                        <li>
+                                            <a href="aboutUs.html">About Us <i class="fa fa-arrow-down"></i></a>
+                                            <ul class="subnav">
+                                                <li class="active"><a class="sublink" href="company.html">Company <i class="fa fa-arrow-right" ></i></a></li>
+                                                <li><a href="faqs.html" class="sublink">FAQs <i class="fa fa-arrow-right" ></i></a></li>
+                                                <li><a href="partners.html" class="sublink">Partners <i class="fa fa-arrow-right" ></i></a></li>
+                                            </ul>
+                                        </li>
+                                        <li><a href="contact.html" type="button">Contact</a></li>
+                                    </ul>
 
 
 
-                            <span class="subTitle">Not the paperwork.</span></span>
+
+                                </div>
+                            </div>
+
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+            <div id="container" class="container m-t-2">
+                <div class="card-deck-wrapper">
+                    <div class="card-deck">
+                        <div class="card">
+
+                            <div class="card-block">
+                                <h2>Less waiting, more selling</h2>
+                                <div style="width: 100%; height: 100px; border: 1px solid #333;">Placeholder</div>
+                                <p class="card-text">TitleNGo is an online registration program partner (OLRP) with the Pennsylvania Department of Transportation (PennDOT). That means we can provide software to Messengers, Notaries, and Dealerships to do electronic titling. We are also a network integrator in the online messenger program (OLM) with PennDOT. We provide network connectivity for messengers to access the PennDOT computers.</p>
+                                <div class="card-text">
+                                    <button class="btn btn-success">Request Information</button>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="card">
+
+                            <div class="card-block">
+                                <h2>PennDOT Titling and Messenger</h2>
+                                <div style="width: 100%; height: 100px; border: 1px solid #333;">Placeholder</div>
+                                <p class="card-text">With the acquisition of sister companies JEB Technology and JEB Communications in October 2010, TitleNGo positioned itself to be your partner for both electronic titling (OLRP) and online messenger (OLM) services. See why companies are choosing TitleNGo for all their needs.</p>
+                                <p class="card-text bottomBox">
+                                    <button class="btn btn-success">Request Information</button>
+                                </p>
+                            </div>
                         </div>
                     </div>
 
-                </div>
-            </div>
-            <div id="container" class="container">
-                <div class="two-column">
-                    <div class="contentBox column">
 
-                        <h2>Less waiting, more selling</h2>
-                        <div style="width: 100%; height: 100px; border: 1px solid #333;">Placeholder</div>
-                        <p class="mbl">TitleNGo is an online registration program partner (OLRP) with the Pennsylvania Department of Transportation (PennDOT). That means we can provide software to Messengers, Notaries, and Dealerships to do electronic titling. We are also a network integrator in the online messenger program (OLM) with PennDOT. We provide network connectivity for messengers to access the PennDOT computers.</p>
-                        <div class="">
-                            <button class="btn btn-success">Request Information</button>
+
+                    <div class="card-deck m-t-1 m-b-1">
+                        <div class="card">
+                            <div class="card-block">
+                                <h4>  Testimonials</h4>
+
+
+
+
+                                <div id="up1">
+                                    <!--<div class="testimonial">-->
+                                    <span id="lblTest" style="font-family:Calibri,Arial;font-size:Small;"><div class="answer">I have found TitleNGo staff to be extremely helpful and personable. They make you genuinely feel as though they have a stake in your business by helping to solve problems and issues as they arise, keeping you informed, and providing software that is on the cutting edge.</div><br><b>- Aaron Shirk, EA, Vice President, Sonrise TagsAndTax LLC</b></span>
+                                    <!--</div>-->
+                                </div>
+                            </div>
                         </div>
+
+
+
                     </div>
                 </div>
-                <div class="two-column">
-                    <div class="contentBox column">
-                        <h2>PennDOT Titling and Messenger</h2>
-                        <div style="width: 100%; height: 100px; border: 1px solid #333;">Placeholder</div>
-                        <p>With the acquisition of sister companies JEB Technology and JEB Communications in October 2010, TitleNGo positioned itself to be your partner for both electronic titling (OLRP) and online messenger (OLM) services. See why companies are choosing TitleNGo for all their needs.</p>
-                        <div class="bottomBox">
-                            <button class="btn btn-success">Request Information</button>
-                        </div>
-                    </div>
-                </div>
+
+
             </div>
-            <div class="container">
-
-                <div class="contentBox column" style="height: 220px; vertical-align: text-top;">
-
-
-                    <h4>
-        Testimonials</h4>
-
-
-
-
-                    <div id="up1">
-                        <!--<div class="testimonial">-->
-                        <span id="lblTest" style="font-family:Calibri,Arial;font-size:Small;"><div class="answer">I have found TitleNGo staff to be extremely helpful and personable. They make you genuinely feel as though they have a stake in your business by helping to solve problems and issues as they arise, keeping you informed, and providing software that is on the cutting edge.</div><br><b>- Aaron Shirk, EA, Vice President, Sonrise TagsAndTax LLC</b></span>
-                        <!--</div>-->
-                    </div>
-
-
-                </div>
-            </div>
-
-
         </div>
-
         <div id="footer">
             <span id="footer_text">
 			<a href="http://titlengo.com/Default.aspx" title="TitleNGo for Electronic Online Titling Services">Home</a>| 
@@ -128,22 +194,8 @@
 
 
 </body>
-<script language="" type="text/javascript">
-    $('.topnav li a').on('click', function() {
-        // Reset the active class from siblings
-        // Clear the sub link selection when the top link is not active
-        // Add class to the parent li for every link
-        // Add active to the first sibling
-        $(this).parent()
-            .siblings('.active').removeClass('active').end()
-            .find('> .subnav li.active').removeClass('active').end()
-            .addClass('active')
-            .find('> .subnav li:first').addClass('active');
-        $('#bannerImg').attr('src', 'assets/titlengo_subpage-banner-wide.jpg');
-        $('#bannerImg').addClass('smallImg');
-        $('.header').css("height", "200px");
-        $('#bannerText').hide();
-    });
+<script language="" type="text/javascript" src="scripts/main.js">
+
 
 </script>
 
